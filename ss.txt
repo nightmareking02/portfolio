@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="primary.css">
+    <link href="https://cdn.jsdelivr.net/pm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIU9" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Quick buy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Primary nav bar starts -->
+    <header class="primary_nav">
+    <img src="https://quickbuyjo.com/wp-content/uploads/2021/02/quick-source-3-copy.png" alt="">
+    <div class="nav_items">
+        <!-- NAVIGATION BAR -->
+        <div class="nav_loc">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> 
+              <div class="nav-text">
+              <h6 class="primary-h6">LOCATION</h6>
+              <p class="primary-text">Bangalore</p>
+            </div>
+        </div>
+        <!-- SEARCH BAR -->
+        <div class="search-bar">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            
+  
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                <path d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+              </svg></button>
+            </div>
+        </div>
+        <div class="sign-in">
+            <p class="primary-text">Hello,</p>
+            <h6 class="primary-h6">Sign In</h6>
+        </div>
+        <div class="order">
+            <p class="primary-text">Returns</p>
+            <h6 class="primary-h6">& Orders</h6>
+        </div>
+        <div class="cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <h6 class="primary-h6">CART</h6>
+        </div>
+    </div>
+
+    </header>
+    <div class="secondary-nav">
+        <ul type="none">
+            <li class="act"><a href="#">Cloth</a>
+            <div class="sub-menu"> 
+                <ul type="none">
+                
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                </ul>
+                </div>
+            
+            </li>
+            <li><a href="#">Fashion</a>
+                <div class="sub-menu"> 
+                    <ul type="none">
+                    
+                        <li><a href="#">Jewlerry</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                        <li><a href="#">Cosmetics</a></li>
+                        <li><a href="#">Bags/watches</a></li>
+                    </ul>
+                    </div></li>
+            <li><a href="#">Electronics&Accessories</a>
+                <div class="sub-menu"> 
+                    <ul type="none">
+                    
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">laptops</a></li>
+                        <li><a href="#">Smart watch</a></li>
+                        <li><a href="#">Earphoes</a></li>
+                    </ul>
+                    </div></li>
+            <li><a href="#">Home Appliences</a>
+                <div class="sub-menu"> 
+                    <ul type="none">
+                    
+                        <li><a href="#">Washing machine</a></li>
+                        <li><a href="#">AC</a></li>
+                        <li><a href="#">Oven</a></li>
+                        <li><a href="#">Fans</a>
+                
+                          
+                                <ul type="none">
+                                
+                                    <li><a href="#">Ceiling fan</a></li>
+                                    <li><a href="#">Wall fan</a></li>
+                                    <li><a href="#">Table fan</a></li>
+                                </ul>
+                                </li>
+                              
+                    </ul>
+                    </div></li>
+            <li><a href="#">Footwear</a></li>
+            <li><a href="#">Groceries</a></li>
+        </ul>
+        </div>
+        <!-- secondary navigation ends -->
+        <div class="home-page">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="p1.jpg" class="d-block " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="p2.jpg" class="d-block " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="p3.jpg" class="d-block " alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+             
+        </div>
+        <div class="home-wrapper">
+            <!-- container 1 -->
+            <div class="home-container">
+                <h6>Revamp your home in style</h6>
+                <div class="home-container-image-wrapper">
+                <div class="home-container-wrap">    
+                    <img src="wrap1.jpg" alt="">
+                    <p>Bedsheet</p>
+                </div>
+                <div class="home-container-wrap">    
+                    <img src="wrap2.jpg" alt="">
+                    <p>Home</p>
+                </div>
+                <div class="home-container-wrap">    
+                    <img src="wrap3.jpg" alt="">
+                    <p>Home inside</p>
+                </div>
+                <div class="home-container-wrap">    
+                    <img src="wrap4.jpg" alt="">
+                    <p>Lights</p>
+                </div>
+                
+            </div>
+            <a href="">Explore</a>
+        </div>
+        <!-- Container 1 ends -->
+        <div class="home-container">
+            <h6>Revamp your home in style</h6>
+            <div class="home-container-image-wrapper">
+            <div class="home-container-wrap">    
+                <img src="wrap1.jpg" alt="">
+                <p>Bedsheet,</p>
+            </div>
+            <div class="home-container-wrap">    
+                <img src="wrap1.jpg" alt="">
+                <p>Bedsheet,</p>
+            </div>
+            <div class="home-container-wrap">    
+                <img src="wrap1.jpg" alt="">
+                <p>Bedsheet,</p>
+            </div>
+            <div class="home-container-wrap">    
+                <img src="wrap1.jpg" alt="">
+                <p>Bedsheet & others</p>
+            </div>
+            
+        </div>
+        <a href="">Explore</a>
+    </div>
+    <div class="home-container">
+        <h6>Revamp your home in style</h6>
+        <div class="home-container-image-wrapper">
+        <div class="home-container-wrap">    
+            <img src="wrap1.jpg" alt="">
+            <p>Bedsheet,</p>
+        </div>
+        <div class="home-container-wrap">    
+            <img src="wrap1.jpg" alt="">
+            <p>Bedsheet,</p>
+        </div>
+        <div class="home-container-wrap">    
+            <img src="wrap1.jpg" alt="">
+            <p>Bedsheet,</p>
+        </div>
+        <div class="home-container-wrap">    
+            <img src="wrap1.jpg" alt="">
+            <p>Bedsheet & others</p>
+        </div>
+        
+    </div>
+    <a href="">Explore</a>
+</div>
+<div class="home-container">
+    <h6>Revamp your home in style</h6>
+    <div class="home-container-image-wrapper">
+    <div class="home-container-wrap">    
+        <img src="wrap1.jpg" alt="">
+        <p>Bedsheet,</p>
+    </div>
+    <div class="home-container-wrap">    
+        <img src="wrap1.jpg" alt="">
+        <p>Bedsheet,</p>
+    </div>
+    <div class="home-container-wrap">    
+        <img src="wrap1.jpg" alt="">
+        <p>Bedsheet,</p>
+    </div>
+    <div class="home-container-wrap">    
+        <img src="wrap1.jpg" alt="">
+        <p>Bedsheet & others</p>
+    </div>
+    
+</div>
+<a href="">Explore</a>
+</div>
+<!-- CONTAINER ENDS -->
+</div>
+    
+</body>
+</html>
